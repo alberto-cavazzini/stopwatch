@@ -4,76 +4,76 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(to right bottom, #1a1a2e, #16213e, #0f3460); /* Sfondo gradiente scuro */
-    font-family: 'Montserrat', sans-serif; /* Font generale più moderno */
-    color: #e0e0e0; /* Testo chiaro */
+    background: linear-gradient(to right bottom, #1a1a2e, #16213e, #0f3460);
+    font-family: 'Montserrat', sans-serif;
+    color: #e0e0e0;
 }
 
 #stopwatchContainer {
     text-align: center;
-    background-color: #2c3a57; /* Sfondo scuro leggermente bluastro */
-    border: 2px solid rgba(0, 255, 255, 0.4); /* Bordo con effetto neon blu-ciano */
+    background-color: #2c3a57;
+    border: 2px solid rgba(0, 255, 255, 0.4);
     border-radius: 20px;
     padding: 40px 30px;
-    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3), /* Ombra neon esterna */
-                inset 0 0 15px rgba(0, 255, 255, 0.1); /* Ombra interna per profondità */
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3),
+                inset 0 0 15px rgba(0, 255, 255, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
 #stopwatchContainer:hover {
-    transform: translateY(-5px); /* Leggero sollevamento al passaggio del mouse */
+    transform: translateY(-5px);
 }
 
 #appTitle {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5em; /* Dimensione del titolo */
-    color: #00e6e6; /* Ciano brillante */
-    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6); /* Ombra neon */
+    font-size: 2.5em;
+    color: #00e6e6;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
     margin-bottom: 25px;
     letter-spacing: 1.5px;
 }
 
 #timeDisplay {
-    font-family: 'Share Tech Mono', monospace; /* Font digitale */
+    font-family: 'Share Tech Mono', monospace;
     font-size: 85px;
-    color: #00ff00; /* Verde brillante per il tempo */
-    text-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Ombra neon verde */
+    color: #00ff00;
+    text-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
     margin-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.3); /* Sfondo semitrasparente per il display */
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 15px 30px;
     border-radius: 10px;
     border: 1px solid rgba(0, 255, 0, 0.3);
     box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.2);
-    letter-spacing: 3px; /* Spaziatura per look digitale */
+    letter-spacing: 3px;
 }
 
 #buttonsContainer {
     display: flex;
-    gap: 20px; /* Spazio tra i bottoni */
+    gap: 20px;
     justify-content: center;
 }
 
 .timerBtn {
-    width: 120px; /* Larghezza più generosa */
-    height: 50px; /* Altezza più generosa */
-    border: none; /* Rimuoviamo il bordo di default */
-    border-radius: 8px; /* Bordi leggermente arrotondati */
-    font-family: 'Montserrat', sans-serif; /* Font per i bottoni */
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Ombra standard */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
 }
 
 #startBtn {
-    background-color: #2ecc71; /* Verde per Start */
+    background-color: #2ecc71;
 }
 
 #startBtn:hover {
-    background-color: #27ae60; /* Verde più scuro al hover */
+    background-color: #27ae60;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(46, 204, 113, 0.4);
 }
@@ -84,11 +84,11 @@ body {
 }
 
 #pauseBtn {
-    background-color: #f39c12; /* Arancione per Pause */
+    background-color: #f39c12;
 }
 
 #pauseBtn:hover {
-    background-color: #e67e22; /* Arancione più scuro al hover */
+    background-color: #e67e22;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(243, 156, 18, 0.4);
 }
@@ -99,11 +99,11 @@ body {
 }
 
 #resetBtn {
-    background-color: #e74c3c; /* Rosso per Reset */
+    background-color: #e74c3c;
 }
 
 #resetBtn:hover {
-    background-color: #c0392b; /* Rosso più scuro al hover */
+    background-color: #c0392b;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(231, 76, 60, 0.4);
 }
